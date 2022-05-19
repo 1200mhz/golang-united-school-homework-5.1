@@ -16,7 +16,7 @@ func TestEnd(t *testing.T) {
 	}
 
 	actual := square.End()
-	expected := Point{40, -10}
+	expected := Point{40, 50}
 
 	if !reflect.DeepEqual(actual, expected) {
 		fmt.Println("expected:", expected)

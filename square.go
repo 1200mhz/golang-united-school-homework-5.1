@@ -12,7 +12,7 @@ type Square struct {
 func (square Square) End() Point {
 	return Point{
 		square.start.x + int(square.a),
-		square.start.y - int(square.a),
+		square.start.y + int(square.a),
 	}
 }
 
